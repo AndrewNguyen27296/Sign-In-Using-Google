@@ -42,14 +42,7 @@
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
 
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $("#btnGoogleLogin").click(function () {
-                window.location.href = "api/Account/ExternalLogin?provider=Google&response_type=token&client_id=self&redirect_uri=http%3A%2F%2Flocalhost%3A62140%2F&state=NNI8KT1Xboh1DoIp2wuUsOwE2TrnI7SOpz3I6cUOjBY1";
-                //alert("Hi");
-            });
-        });
-    </script>
+    
 </body>
 
 </html>
